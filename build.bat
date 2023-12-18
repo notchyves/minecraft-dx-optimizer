@@ -1,0 +1,1 @@
+cl /LD WindowsApp.lib user32.lib d2d1.lib dwrite.lib dxguid.lib lib/MinHook.x64.lib Include/kiero/kiero.cpp dllmain.cpp /I include /std:c++17 /EHsc /Fo./obj/ /Fe./bin/optimizer.dll /NODEFAULTLIB:MSVCRT
